@@ -1,0 +1,14 @@
+body { font-family: Arial, Helvetica, sans-serif; margin:0; padding:0; }
+.container { padding: 16px; }
+header { display:flex; justify-content:space-between; align-items:center; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(120px,1fr)); gap:16px; margin-top:16px; }
+.card { background:#f2f2f2; padding:16px; border-radius:8px; text-align:center; cursor:pointer; }
+.icon { width:64px; height:64px; border-radius:12px; background:#ddd; margin:0 auto 8px; display:flex; align-items:center; justify-content:center; font-size:24px; }
+.label { font-weight:600; }
+.center { display:flex; flex-direction:column; align-items:center; justify-content:center; height:60vh; }
+.overlay { position:fixed; left:0; right:0; top:0; bottom:0; background:rgba(0,0,0,0.3); display:flex; align-items:center; justify-content:center; font-size:24px; color:white; }
+.list { margin-top:16px; }
+.listItem { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid #eee; }
+.muted { color:#666; font-size:12px; }
+.settings { font-size:14px; }
+.empty { color:#888; }
